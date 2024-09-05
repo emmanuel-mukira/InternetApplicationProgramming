@@ -3,6 +3,8 @@ require_once "load.php";
 
 $objLayouts->heading();
 $objMenu->main_menu();
-print "<br><br><br>";
-$objLayouts->footer();
+$objMenu->main_right_side_menu();
 $objLayouts->card();
+$objContents->main_content();
+$objContents->side_bar();
+$objLayouts->footer();

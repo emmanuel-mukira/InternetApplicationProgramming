@@ -1,0 +1,28 @@
+.row::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.content{
+    float:left;
+    width:66.66%;
+    padding:15px;
+}
+
+.side-bar{
+    float:left;
+    width:33.33%;
+    padding:15px;
+}
+.abt_img{
+    float:left;
+    width:50%;
+}
+img{
+    margin:10px;
+}
+@media screen and (max-width:650px) {
+    .content , .sidebar ,img{
+        width:100%;
+    }
+}

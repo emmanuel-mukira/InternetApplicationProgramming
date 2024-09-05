@@ -20,4 +20,4 @@ spl_autoload_register("ClassAutoload");
 
 $objLayouts= new layouts();
 $objMenu =new menus();
-
+$objContents=new contents();
