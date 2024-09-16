@@ -19,7 +19,7 @@ class menus{
         ?>
         <div class="topnav-right">
          <a href="">Sign In</a>
-         <a href="">Sign Up</a>
+         <a href="signup.php">Sign Up</a>
         </div>
     </div>
         <?php
